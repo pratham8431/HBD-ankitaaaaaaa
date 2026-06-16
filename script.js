@@ -79,6 +79,23 @@ const _slideTiga = function () {
   const slideTiga = document.getElementById('slideTiga');
 
   slideTiga.classList.remove('d-none');
+
+  new TypeIt("#teks2", {
+    strings: [
+      "We went from ignoring each other to telling each other about our whole day — thats a big leapp 🥹",
+      "I hope we take an even bigger leap in future (IF UK UK!!)",
+      "I hope you like this, if i had more time mei aur acchese banata office mei sabko dikhana (especially UK who 👀).",
+      " ",
+      "i simply love you 🤍",
+      "and aunty agar aap yeh dekh rahe ho toh sorry but aapki beti bohot pyaari hai and mera bohot dhyaan rakhti haii!!",
+      " ",
+      "Happiest birthday Sonaaa — see ya tomorrow 🎂"
+    ],
+    startDelay: 500,
+    speed: 60,
+    waitUntilVisible: true
+  }).go();
+
   setTimeout(function () {
     tap.classList.remove('d-none');
     document.body.addEventListener('click', function () {
@@ -167,21 +184,6 @@ new TypeIt("#teks1", {
   waitUntilVisible: true
 }).go();
 
-new TypeIt("#teks2", {
-  strings: [
-    "We went from ignoring each other to telling each other about our whole day — thats a big leapp 🥹",
-    "I hope we take an even bigger leap in future (IF UK UK!!)",
-    "I hope you like this, if i had more time mei aur acchese banata office mei sabko dikhana (especially UK who 👀).",
-    " ",
-    "i simply love you 🤍",
-    "and aunty agar aap yeh dekh rahe ho toh sorry but aapki beti bohot pyaari hai and mera bohot dhyaan rakhti haii!!",
-    " ",
-    "Happiest birthday Sonaaa — see ya tomorrow 🎂"
-  ],
-  startDelay: 2000,
-  speed: 60,
-  waitUntilVisible: true
-}).go();
 
 
 new TypeIt("#trims", {
